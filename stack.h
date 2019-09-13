@@ -3,7 +3,8 @@
 
 int isempty (void);
 int isfull (void);
-int peek (void);
-int pop (void);
-void push (int);
+void peek (int a, int b);
+void pop (int a, int b);
+void push (int, int);
 void clear (void);
+
